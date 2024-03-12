@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "🏸 Youmin Notes",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -16,7 +16,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "推甄", "*.excalidraw.md"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
