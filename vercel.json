@@ -1,4 +1,5 @@
 {
-    "buildCommand": "bun link && bun link @jackyzha0/quartz && bunx quartz build",
-    "installCommand": "bun i"
+  "buildCommand": "bun link && bun link @jackyzha0/quartz && bunx quartz build",
+  "installCommand": "bun i",
+  "cleanUrls": true
 }
