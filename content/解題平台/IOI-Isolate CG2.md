@@ -28,7 +28,7 @@ sudo make -j$(nproc) install
 2. Start service
 
 ```shell
-sudo mv isolate/systemd/* /etc/systemd/system/
+sudo cp isolate/systemd/* /etc/systemd/system/
 ```
 
 ```shell

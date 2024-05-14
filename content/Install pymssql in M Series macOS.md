@@ -23,6 +23,16 @@ brew install openssl
 brew install libiconv
 ```
 
+
+> [!TIP]
+> 
+>  如果沒有使用`poetry`的話，可以只執行下面這段指令
+>
+> ```shell
+> pip install --pre --no-binary :all: pymssql --no-cache --force
+> ```
+> * [Ref.](https://github.com/pymssql/pymssql/issues/880)
+
 2. Install python with pyenv
 3. Change global python to previously installed one
 
