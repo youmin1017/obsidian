@@ -11,6 +11,8 @@ tags:
 
 **更改資料夾擁有者讓mssql能夠創建檔案**
 
+## Linux 
+
 ```bash
 chown mssql /home/user/db/mssql
 ```
@@ -34,6 +36,26 @@ collate Chinese_Taiwan_Stroke_CI_AS -- 中文
 go
 ```
 
+## Windows
+
+```sql
+create DATABASE OD on
+(
+name = OD_data,
+FILENAME = 'C:\database\<dbname>/OD.mdf',
+SIZE = 10,
+filegrowth = 5
+)
+LOG ON
+(
+name = OD_log,
+FILENAME = 'C:\database\<dbname>/OD.ldf',
+SIZE = 10,
+filegrowth = 5
+)
+collate Chinese_Taiwan_Stroke_CI_AS -- 中文
+go
+```
 
 ### 資料庫中文
 
