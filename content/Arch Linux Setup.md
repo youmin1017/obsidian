@@ -3,7 +3,7 @@ tags:
   - linux
   - arch
 ---
-**	## Install AUR Helper
+	**	## Install AUR Helper
 
 > [!NOTE] 
 > For install packages easily
@@ -31,7 +31,7 @@ yay zsh-antidote # zsh plugin manager
 ### Apply dotfiles
 
 ```shell
-git clone https://github.com/youmin1017/dot-configs.git ~/.local/share/chezmoi
+git clone https://github.com/youmin1017/dotfiles.git ~/.local/share/chezmoi
 chezmoi init
 chezmoi apply
 ```

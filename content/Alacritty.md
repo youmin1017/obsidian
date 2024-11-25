@@ -14,7 +14,6 @@ Alacritty - A fast, cross-platform, OpenGL terminal emulator
 ```bash
 brew install alacritty
 ```
-
 ## Configuration
 
 You can find the default configuration file with documentation for all available fields on the [GitHub releases page](https://github.com/alacritty/alacritty/releases) for each release.

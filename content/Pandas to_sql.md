@@ -23,6 +23,12 @@ DB_PASSWORD = ""
 DB_DRIVER = "ODBC Driver 18 for SQL Server"
 ```
 
+## Install Dependencies
+
+```bash
+pip install sqlalchemy pandas python-dotenv
+```
+
 ### Load Environment Variables
 
 There are two ways to load env
